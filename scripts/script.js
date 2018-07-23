@@ -1,5 +1,5 @@
-$(document).ready(function(){
-
+$(document).ready(function(){	
+	
 $(".character").delay(200).fadeIn(400);
 $(".mainheader").delay(200).fadeIn(400);
 
@@ -19,6 +19,7 @@ $(function() {
 	});
 });
 
+$(".cover").delay(600).fadeOut(300);
 
 // external js: isotope.pkgd.js
 
@@ -55,8 +56,6 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
-
-$(".cover").delay(400).fadeOut(300);
 
 $(".entry1").hover(function(){
     $(".top-title-link").text("24 May 2018, 16:50");
